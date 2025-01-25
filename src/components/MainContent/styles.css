@@ -1,0 +1,74 @@
+.main-content-title {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    margin: 0 14rem;
+  }
+  
+  .projects-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    margin: 0 10rem 3rem 10rem;
+    list-style: none;
+  }
+  
+  .projects-list li {
+    background-color: rgba(238, 238, 238, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+  }
+  
+  .list-title {
+    background-size: cover;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+  }
+  
+  .real-estate {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(../../../img/realestate.jpg);
+  }
+  
+  .coffee-blog {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(../../../img/coffeeblog.jpg);
+  }
+  
+  .travel-blog {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(../../../img/travelblog.jpg);
+  }
+  
+  .tshirt-store {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(../../../img/tshirtstore.jpg);
+  }
+  
+  .note-manager {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(../../../img/notemanager.jpg);
+  }
+  
+  .list-content {
+    color: black;
+    font-size: 1.9rem;
+    text-align: left;
+    padding: 0 2rem 2rem 2rem;
+  }
+  
+  .projects-list a {
+    color: black;
+    font-size: 1.8rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: solid black;
+    margin: 0 12rem 2rem 12rem;
+    padding: 0.5rem 0;
+  }
+  
+  .projects-list a:hover {
+    color: white;
+    background-color: black;
+  }

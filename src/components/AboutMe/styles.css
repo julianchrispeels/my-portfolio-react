@@ -1,0 +1,53 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5rem;
+    height: 47rem;
+}
+
+.about-img-container {
+    padding: 4rem;
+    padding-bottom: 0;
+}
+
+.about-img {
+    width: 40rem;
+    height: 40rem;
+    background-image: url('../../../img/profilepic.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.about-text-container {
+    padding: 4rem;
+    width: 80%;
+}
+
+.about-title {
+    color: white;
+    font-size: 2.8rem;
+}
+
+.about-title h2 {
+    margin-bottom: 0;
+}
+
+.about-content {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 3.5rem;
+    margin-top: 0;
+    /*text-shadow: 
+    1px 1px 0 black,
+    -1px 1px 0 black,
+    1px -1px 0 black,
+    -1px -1px 0 black;*/
+}
+
+.about-content p {
+    margin-top: 0;
+}
