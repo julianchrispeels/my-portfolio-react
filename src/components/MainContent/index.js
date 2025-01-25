@@ -16,7 +16,7 @@ export default function MainContent() {
                 </div>
 
                 <div>
-                    <a href={link} className="boton" target="_blank">VISIT</a>
+                    <a href={link} className="boton" target="_blank" rel="noreferrer">VISIT</a>
                 </div>
             </li>
         )

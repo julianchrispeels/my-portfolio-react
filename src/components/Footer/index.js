@@ -15,11 +15,11 @@ export default function Footer() {
 				</div>
 
 				<div className='contact-email'>
-					<FontAwesomeIcon icon={faEnvelope} className='email-icon'/><a href={mailto} target="_blank">julianchrispeels@gmail.com</a>
+					<FontAwesomeIcon icon={faEnvelope} className='email-icon'/><a href={mailto} target="_blank" rel="noreferrer">julianchrispeels@gmail.com</a>
 				</div>
 
 				<div className='contact-linkedin'>
-					<FontAwesomeIcon icon={faLinkedin} className='linkedin-icon'/><a href={link} target="_blank">Linkedin</a>
+					<FontAwesomeIcon icon={faLinkedin} className='linkedin-icon'/><a href={link} target="_blank" rel="noreferrer">Linkedin</a>
 				</div>
 
 				<div className='contact-text'>
