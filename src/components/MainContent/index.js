@@ -23,7 +23,7 @@ export default function MainContent() {
     }
 
     return (
-        <div>
+        <main>
             <div className="main-content-title">
                 <h2>My web projects</h2>
             </div>
@@ -37,6 +37,6 @@ export default function MainContent() {
                     {listItem("Note Manager Website", "note-manager", "A full-stack project of a Single Page Application.", "Designed with React.js and Node.js.", "Connected with a databese.", "https://note-manager-app-frontend.vercel.app/")}
                 </ul>
             </div>
-        </div>
+        </main>
     );
 }
