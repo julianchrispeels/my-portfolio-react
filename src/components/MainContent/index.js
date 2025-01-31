@@ -4,7 +4,7 @@ export default function MainContent() {
 
     function listItem(title, className, content1, content2, content3, link) {
         return (
-            <li>
+            <li className="project-item">
                 <div className={`list-title ${className}`}>
                     {title}
                 </div>
