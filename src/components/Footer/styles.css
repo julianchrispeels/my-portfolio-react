@@ -20,9 +20,28 @@
 
 .contact-info {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 30rem;
+    flex-direction: column;
+}
+
+.contact-info > * {
+    margin: 1.5rem 0;
+}
+
+.contact-info > *:last-child {
+    margin-top: 0;
+}
+
+@media (min-width: 1500px) {
+    .contact-info {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 30rem;
+    }
+
+    .contact-info > * {
+        margin: 0;
+    }
 }
 
 .contact-title {

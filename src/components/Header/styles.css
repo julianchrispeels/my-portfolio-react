@@ -1,11 +1,22 @@
+/* ------------------------------ Header ------------------------------  */
+
 .header {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     background-color: rgb(34, 34, 34);
     text-align: center;
     padding: 0 10rem;
-    height: 10rem;
 }
+
+@media (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        height: 10rem;
+    }
+}
+
+/* ------------------------------ Header Title ------------------------------  */
 
 .header-title {
     display: flex;
@@ -20,23 +31,38 @@
 }
 
 .header-title h1 {
-    font-size: 4.8rem;
+    font-size: 3.6rem;
     font-weight:400;
+}
+
+@media (min-width: 768px) {
+    .header-title h1 {
+        font-size: 4.8rem;
+    }
 }
 
 .header-title-link span {
     font-weight: 700;
 }
 
+/* ------------------------------ Header Navigation ------------------------------  */
+
 .navigation-bar {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
 
-.navigation-link:first-of-type {
-    margin-right: 3rem;
+@media (min-width: 768px) {
+    .navigation-bar {
+        flex-direction: row;
+    }
+
+    .navigation-link:first-of-type {
+        margin-right: 3rem;
+    }
 }
 
 .navigation-link {
@@ -45,7 +71,13 @@
     font-size: 2.2rem;
     align-items: center;
     text-decoration: none;
-    margin: 2rem 0;
+    margin: 1rem 0 3rem 0;
+}
+
+@media (min-width: 768px) {
+    .navigation-link {
+        margin: 2rem 0;
+    }
 }
 
 .navigation-link:hover {

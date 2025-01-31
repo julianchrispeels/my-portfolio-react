@@ -9,7 +9,7 @@ export default function AboutMe() {
                 PostgreSQL and Sequelize for the backend. I'm also expanding my knowledge by exploring new technologies,
                 such as Django, to further enhance my abilities.`;
     return (
-        <section className="row">
+        <section className="about">
             <div className="about-img-container">
                 <div className="about-img"></div>
             </div>
