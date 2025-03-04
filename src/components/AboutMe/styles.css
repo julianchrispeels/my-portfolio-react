@@ -10,7 +10,7 @@
     .about {
         flex-direction: row;
         justify-content: space-between;
-        height: 47rem;
+        height: calc(100vh - 23.3rem);
         margin: 0 5rem;
     }
 }
