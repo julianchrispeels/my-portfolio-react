@@ -1,5 +1,11 @@
-import MainContent from "../components/MainContent";
+import Main from "../components/Main";
+import MyProjects from "../components/MyProjects";
 
 export default function Home() {
-    return <MainContent />;
-  }
+	return (
+		<>
+			<Main />
+			<MyProjects />
+		</>
+	);
+}

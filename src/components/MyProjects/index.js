@@ -1,9 +1,9 @@
 import ListItems from './components/ListItem';
 import './styles.css';
 
-export default function MainContent() {
+export default function MyProjects() {
     return (
-        <main>
+        <main id='projects'>
             <div className="main-content-title">
                 <h2>My web projects</h2>
             </div>

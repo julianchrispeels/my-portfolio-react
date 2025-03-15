@@ -1,0 +1,179 @@
+/*---------------------------------------- Global Variables ----------------------------------------*/
+
+:root {
+    --main-text-color: #353535;
+    --email-color: #ff4141;
+    --linkedin-color: #0086df;
+    --github-color: #5700bb;
+}
+
+/*---------------------------------------- Main Component ----------------------------------------*/
+
+.main {
+    color: var(--main-text-color);
+    height: 100vh;
+}
+
+/*---------------------------------------- Main Header ----------------------------------------*/
+
+.main-header {
+    height: 3rem;
+    margin: 0 5rem 0 4rem;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-bottom: solid 2px #383838;
+}
+
+.main-button {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+    color: var(--main-text-color);
+    background-color: rgba(56, 56, 56, 0);
+    border: solid 2px var(--main-text-color);
+    border-radius: 1rem;
+}
+
+.main-button:hover {
+    color: white;
+    background-color: var(--main-text-color);
+    cursor: pointer;
+}
+
+/*---------------------------------------- Main Content ----------------------------------------*/
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(57, 120, 255, 0.23);
+    margin: 0 21rem;
+    padding: 5rem 0;
+    border-radius: 0 0 5rem 5rem;
+}
+
+.main-content h1 {
+    font-size: 11rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/*--------- Cover ---------*/
+
+.cover {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.cover-img {
+    width: 27rem;
+    height: 27rem;
+    background-image: url('../../../img/profilepic.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: auto 0;
+    border: solid 3px var(--main-text-color);
+    border-radius: 50%;
+}
+
+/*--------- Cover Info ---------*/
+
+.cover-info {
+    padding-left: 4rem;
+    text-align: center;
+}
+
+.cover-info h2 {
+    font-size: 7rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cover-info h3 {
+    font-size: 3.7rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/*--------- Cover Contact ---------*/
+
+.cover-contact {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.cover-contact * {
+    margin: 0 1.5rem;
+}
+
+/*--------- Cover Contact Icons ---------*/
+
+/*LinkedIn*/
+.linkedin-icon {
+    padding: 0;
+    margin: 0;
+    color: var(--main-text-color);
+}
+
+.linkedin-icon :hover {
+    color: var(--linkedin-color);
+}
+
+/*GitHub*/
+.github-icon {
+    margin: 0;
+    color: var(--main-text-color);
+}
+
+.github-icon :hover {
+    color: var(--github-color);
+}
+
+/*Email*/
+.email-icon {
+    margin: 0;
+    color: var(--main-text-color);
+}
+
+.email-icon :hover {
+    color: var(--email-color);
+}
+
+/*--------- Cover Buttons ---------*/
+
+.main-content-buttons {
+    margin: 4rem 0;
+}
+
+.main-content-buttons button {
+    font-size: 4rem;
+    font-weight: bold;
+    width: 22rem;
+    margin: 0 3rem;
+    padding: 1rem 3rem;
+    color: var(--main-text-color);
+    background-color: #00c0208e;
+    border: solid 2px var(--main-text-color);
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.049);
+}
+
+.main-content-buttons button:hover {
+    color: white;
+    background-color: #00b01de1;
+    cursor: pointer;
+}
+
+.main-content-buttons button a {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
