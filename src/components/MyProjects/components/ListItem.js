@@ -1,18 +1,18 @@
 export default function ListItem(title, className, content1, content2, content3, link) {
     return (
-        <li className="project-item">
-            <div className={`list-title ${className}`}>
+        <li className="project-box">
+            <div className={`box-title ${className}`}>
                 {title}
             </div>
 
-            <div className="list-content">
+            <div className="box-content">
                 <p>{content1}</p>
                 <p>{content2}</p>
                 <p>{content3}</p>
             </div>
 
             <div>
-                <a href={link} className="boton" target="_blank" rel="noreferrer">VISIT</a>
+                <a href={link} className="box-button" target="_blank" rel="noreferrer">VISIT</a>
             </div>
         </li>
     )

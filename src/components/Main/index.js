@@ -4,9 +4,9 @@ import MainContent from './components/MainContent';
 
 export default function Main() {
 	return (
-		<section className='main'>
+		<main className='main'>
 			<MainHeader />
 			<MainContent />
-		</section>
+		</main>
 	);
 }
