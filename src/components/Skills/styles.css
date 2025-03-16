@@ -1,0 +1,74 @@
+/*---------------------------------------- Skills Section Variables ----------------------------------------*/
+
+:root {
+    --dark-aqua: #004341;
+	--dark-aqua-light: #006764c7;
+	--dark-aqua-transparent: #0043412e;
+}
+
+/*--------------------------------------- Skills Section ---------------------------------------*/
+
+.skills-section {
+    margin: 0 5rem 0 4rem;
+	border-top: solid 2px #383838;
+}
+
+/*----------------- Skills Section Title -----------------*/
+
+.skills-section-title {
+    margin: 3rem 0;
+	font-size: 7rem;
+	color: var(--main-text-color);
+	text-align: left;
+}
+
+/*----------------- Skills Box -----------------*/
+
+.skills-boxes-container {
+	padding-bottom: 3rem;
+}
+
+.skills-boxes-title {
+	font-size: 6rem;
+	color: var(--main-text-color);
+	text-align: left;
+	margin: 3rem 0 1rem 10rem;
+}
+
+.skills-boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 6rem;
+	background-color: rgba(0, 155, 160, 0.098);
+	border: solid 2px var(--dark-aqua);
+	border-radius: 8rem;
+	padding: 4rem 3rem;
+}
+
+.skills-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(255, 255, 255);
+	background-color: var(--dark-aqua-light);
+	border: solid 2px var(--dark-aqua);
+	border-radius: 3rem;
+	margin: 1rem 0.5rem;
+	padding: 0 1rem;
+	box-shadow: 0 0 1rem 0 var(--dark-aqua-transparent);
+}
+
+.skills-box-text {
+	font-size: 4.5rem;
+	font-weight: bold;
+	margin: 0;
+	padding: 1rem 2rem;
+}
+
+.skills-box-icon {
+	font-size: 3.5rem;
+	padding-left: 2rem;
+}

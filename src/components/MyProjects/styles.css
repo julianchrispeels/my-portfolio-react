@@ -1,9 +1,3 @@
-/*---------------------------------------- Global Variables ----------------------------------------*/
-
-:root {
-    --main-text-color: #353535;
-}
-
 /*---------------------------------------- Projects Section ----------------------------------------*/
 
 .projects-section {
@@ -32,12 +26,14 @@
 	flex-direction: column;
 	align-items: center;
 	min-width: 100%;
+	padding: 0;
+	margin-bottom: 7rem;
 }
 
 .project-list-container {
 	display: flex;
 	width: 80%;
-	margin: 0 auto 0 calc(50% - 45.5rem);
+	margin: 0 0 0 calc(50% - 45rem);
 	justify-content: center;
 	align-items: center;
 }
@@ -53,12 +49,13 @@
 
 .side-text.last-text {
 	width: 50rem;
+	margin-right: 11rem;
 }
 
 .project-box {
 	display: flex;
 	flex-direction: column;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.819);
 	border-radius: 1.5rem;
 	width: 50rem;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.349);
@@ -123,7 +120,7 @@
 
 .arrow {
 	font-size: 5rem;
-	margin: 2rem 0 1.5rem 0;
+	margin: 2rem 5.5rem 1.5rem 0;
 }
 
 .arrow:last-of-type {

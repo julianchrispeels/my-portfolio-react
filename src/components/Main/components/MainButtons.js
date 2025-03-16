@@ -10,10 +10,10 @@ export default function MainButtons() {
 
     function handleSkillsClick(event) {
         event.preventDefault();
-        /*window.scrollTo({
+        window.scrollTo({
             top: document.getElementById('skills').offsetTop,
             behavior: 'smooth'
-        });*/
+        });
     }
 
     function handleAboutClick(event) {
