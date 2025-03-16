@@ -1,11 +1,3 @@
-/*---------------------------------------- Main Component Variables ----------------------------------------*/
-
-:root {
-    --email-color: #ff3838ec;
-    --linkedin-color: #008deb;
-    --github-color: #5700bb;
-}
-
 /*---------------------------------------- Main Component ----------------------------------------*/
 
 .main {
@@ -34,6 +26,7 @@
     background-color: rgba(56, 56, 56, 0);
     border: solid 2px var(--main-text-color);
     border-radius: 1rem;
+    transition: var(--transition);
 }
 
 .main-button:hover {
@@ -52,8 +45,10 @@
     background-color: rgba(57, 120, 255, 0.23);
     margin: 0 21rem;
     padding: 5rem 0;
+    border: solid 2px var(--main-text-color);
+    border-top: none;
     border-radius: 0 0 5rem 5rem;
-    box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.034);
+    box-shadow: var(--shadow);
 }
 
 
@@ -83,6 +78,7 @@
     margin: auto 0;
     border: solid 3px var(--main-text-color);
     border-radius: 50%;
+    box-shadow: var(--shadow);
 }
 
 /*--------- Cover Info ---------*/
@@ -121,12 +117,12 @@
 
 /*LinkedIn*/
 .linkedin-icon {
-    padding: 0;
     margin: 0;
     color: var(--main-text-color);
+    transition: var(--transition);
 }
 
-.linkedin-icon :hover {
+.linkedin-icon:hover {
     color: var(--linkedin-color);
 }
 
@@ -134,9 +130,10 @@
 .github-icon {
     margin: 0;
     color: var(--main-text-color);
+    transition: var(--transition);
 }
 
-.github-icon :hover {
+.github-icon:hover {
     color: var(--github-color);
 }
 
@@ -144,9 +141,10 @@
 .email-icon {
     margin: 0;
     color: var(--main-text-color);
+    transition: var(--transition);
 }
 
-.email-icon :hover {
+.email-icon:hover {
     color: var(--email-color);
 }
 
@@ -166,7 +164,8 @@
     background-color: #00c0208e;
     border: solid 2px var(--main-text-color);
     border-radius: 2rem;
-    box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.049);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
 }
 
 .main-content-buttons button:hover {

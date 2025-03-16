@@ -18,10 +18,10 @@ export default function MainButtons() {
 
     function handleAboutClick(event) {
         event.preventDefault();
-        /*window.scrollTo({
-            top: document.getElementById('about-me').offsetTop,
+        window.scrollTo({
+            top: document.getElementById('about').offsetTop,
             behavior: 'smooth'
-        });*/
+        });
     }
 
     return (

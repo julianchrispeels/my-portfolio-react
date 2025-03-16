@@ -10,12 +10,12 @@ export default function Skills() {
         "English/Spanish"];
 
     return (
-        <section id="skills" className="skills-section">
-            <h2 className="skills-section-title">My Skills</h2>
+        <section id="skills" className="section">
+            <h2 className="section-title">My Skills</h2>
             <div className="skills-boxes-container">
-                <h3 className="skills-boxes-title">Hard Skills</h3>
+                <h3 className="section-subtitle">Hard Skills</h3>
                 <SkillsBoxes skillsArray={hardSkillsArray} />
-                <h3 className="skills-boxes-title">Soft Skills</h3>
+                <h3 className="section-subtitle">Soft Skills</h3>
                 <SkillsBoxes skillsArray={softSkillsArray} />
             </div>
         </section>

@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #EBEBEB;
+	background-color: var(--main-bg-color);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;

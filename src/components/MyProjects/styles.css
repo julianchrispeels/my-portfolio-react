@@ -1,19 +1,5 @@
 /*---------------------------------------- Projects Section ----------------------------------------*/
 
-.projects-section {
-	margin: 0 5rem 0 4rem;
-	border-top: solid 2px #383838;
-}
-
-/* ------------------------- Title ------------------------- */
-
-.projects-section-title {
-	margin: 3rem 0;
-	font-size: 7rem;
-	color: var(--main-text-color);
-	text-align: left;
-}
-
 /* ------------------------- Projects Container ------------------------- */
 
 .projects-section-container {
@@ -56,9 +42,11 @@
 	display: flex;
 	flex-direction: column;
 	background-color: rgba(255, 255, 255, 0.819);
-	border-radius: 1.5rem;
+	border-radius: 4rem;
 	width: 50rem;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.349);
+	/*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.349);*/
+	box-shadow: var(--shadow);
+	border: solid 2px var(--main-text-color);
 	overflow: hidden;
 }
 
@@ -74,22 +62,27 @@
 
 .tshirt-store {
 	background-color: #ffac11;
+	border-bottom: solid 2px var(--main-text-color);
 }
 
 .travel-blog {
 	background-color: #db008d;
+	border-bottom: solid 2px var(--main-text-color);
 }
 
 .coffee-blog {
 	background-color: #2D2D2D;
+	border-bottom: solid 2px var(--main-text-color);
 }
 
 .real-estate {
 	background-color: #2db500;
+	border-bottom: solid 2px var(--main-text-color);
 }
 
 .note-manager {
 	background-color: #657fffce;
+	border-bottom: solid 2px var(--main-text-color);
 }
 
 .box-content {
@@ -111,6 +104,8 @@
 	margin: 0 auto 2rem auto;
 	max-width: 16rem;
 	padding: 0.5rem 0;
+	border-radius: 3rem;
+	transition: var(--transition);
 }
 
 .box-button:hover {
@@ -121,6 +116,8 @@
 .arrow {
 	font-size: 5rem;
 	margin: 2rem 5.5rem 1.5rem 0;
+	min-width: 80%;
+	text-align: center;
 }
 
 .arrow:last-of-type {
