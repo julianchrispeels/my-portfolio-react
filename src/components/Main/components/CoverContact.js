@@ -12,17 +12,17 @@ export default function CoverContact() {
     return (
         <div className='cover-contact'>
             <a href={linkedin} target="_blank" rel="noreferrer">
-                <div className='linkedin-icon'>
+                <div className='linkedin-icon' id='linkedin-icon'>
                     <FontAwesomeIcon icon={faLinkedin} />
                 </div>
             </a>
             <a href={github} target="_blank" rel="noreferrer">
-                <div className='github-icon'>
+                <div className='github-icon' id='github-icon'>
                     <FontAwesomeIcon icon={faGithub} />
                 </div>
             </a>
             <a href={mailto} target="_blank" rel="noreferrer">
-                <div className='email-icon'>
+                <div className='email-icon' id='email-icon'>
                     <FontAwesomeIcon icon={faEnvelope} />
                 </div>
             </a>

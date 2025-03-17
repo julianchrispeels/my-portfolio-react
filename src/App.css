@@ -1,34 +1,24 @@
-/*---------------------------------------- Global Variables ----------------------------------------*/
-
-:root {
-	--main-text-color: #353535;
-	--email-color: #ff3838ec;
-	--linkedin-color: #008deb;
-	--github-color: #6200d2;
-	--main-bg-color: #EBEBEB;
-	--shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.05);
-	--transition: all 0.2s;
-}
-
-/*---------------------------------------- Global Classes ----------------------------------------*/
+/*---------------------------------------- Global Styles ----------------------------------------*/
 
 .section {
 	margin: 0 5rem 0 4rem;
-	border-top: solid 2px #383838;
+	border-top: solid 2px var(--main-black);
+}
+
+.section-dark {
+	border-top: solid 2px var(--main-white);
 }
 
 .section-title {
 	margin: 3rem 0;
 	font-size: 7rem;
-	color: var(--main-text-color);
 	text-align: left;
 }
 
 .section-subtitle {
 	font-size: 6rem;
-	color: var(--main-text-color);
 	text-align: left;
-	margin: 3rem 0 0 10rem;
+	margin: 5rem 10rem;
 }
 
-/*---------------------------------------- App Classes ----------------------------------------*/
+/*---------------------------------------- App Styles ----------------------------------------*/

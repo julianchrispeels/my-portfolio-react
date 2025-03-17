@@ -1,38 +1,54 @@
 /*---------------------------------------- Main Component ----------------------------------------*/
 
 .main {
-    color: var(--main-text-color);
     height: 100vh;
 }
 
 /*---------------------------------------- Main Header ----------------------------------------*/
 
 .main-header {
-    height: 3rem;
-    margin: 0 5rem 0 4rem;
-    padding: 4rem 2rem;
     display: flex;
     justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding: 1rem;
     align-items: center;
-    color: #fff;
-    border-bottom: solid 2px #383838;
+    border-bottom: solid 2px var(--main-black);
+}
+
+.main-header-dark {
+    border-bottom: solid 2px var(--main-white);
 }
 
 .main-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 3rem;
     font-weight: bold;
-    padding: 1rem;
-    color: var(--main-text-color);
-    background-color: rgba(56, 56, 56, 0);
-    border: solid 2px var(--main-text-color);
-    border-radius: 1rem;
+    min-width: 11.7rem;
+    padding: 1rem 2rem;
+    color: var(--main-black);
+    background-color: #ffffff00;
+    border: solid 2px var(--main-black);
+    border-radius: 2rem;
     transition: var(--transition);
 }
 
 .main-button:hover {
-    color: white;
-    background-color: var(--main-text-color);
+    color: var(--main-white);
+    background-color: var(--main-black);
     cursor: pointer;
+}
+
+.main-button-dark {
+    color: var(--main-white);
+    border: solid 2px var(--main-white);
+}
+
+.main-button-dark:hover {
+    color: var(--main-black);
+    background-color: var(--main-white);
 }
 
 /*---------------------------------------- Main Content ----------------------------------------*/
@@ -44,14 +60,17 @@
     align-items: center;
     background-color: rgba(57, 120, 255, 0.23);
     margin: 0 21rem;
-    padding: 5rem 0;
-    border: solid 2px var(--main-text-color);
+    padding: 8rem 0;
+    border: solid 2px var(--main-black);
     border-top: none;
     border-radius: 0 0 5rem 5rem;
     box-shadow: var(--shadow);
 }
 
-
+.main-content-dark {
+    border: solid 2px var(--main-white);
+    border-top: none;
+}
 
 .main-content h1 {
     font-size: 11rem;
@@ -76,7 +95,7 @@
     background-size: cover;
     background-position: center;
     margin: auto 0;
-    border: solid 3px var(--main-text-color);
+    border: solid 2px var(--main-black);
     border-radius: 50%;
     box-shadow: var(--shadow);
 }
@@ -84,6 +103,7 @@
 /*--------- Cover Info ---------*/
 
 .cover-info {
+    margin: auto 0;
     padding-left: 4rem;
     text-align: center;
 }
@@ -116,9 +136,10 @@
 /*--------- Cover Contact Icons ---------*/
 
 /*LinkedIn*/
+
 .linkedin-icon {
     margin: 0;
-    color: var(--main-text-color);
+    color: var(--main-black);
     transition: var(--transition);
 }
 
@@ -126,10 +147,15 @@
     color: var(--linkedin-color);
 }
 
+.linkedin-icon-dark {
+    color: var(--main-white);
+}
+
 /*GitHub*/
+
 .github-icon {
     margin: 0;
-    color: var(--main-text-color);
+    color: var(--main-black);
     transition: var(--transition);
 }
 
@@ -137,15 +163,28 @@
     color: var(--github-color);
 }
 
+.github-icon-dark {
+    color: var(--main-white);
+}
+
+.github-icon-dark:hover {
+    color: rgb(184, 0, 220);
+}
+
 /*Email*/
+
 .email-icon {
     margin: 0;
-    color: var(--main-text-color);
+    color: var(--main-black);
     transition: var(--transition);
 }
 
 .email-icon:hover {
     color: var(--email-color);
+}
+
+.email-icon-dark {
+    color: var(--main-white);
 }
 
 /*--------- Cover Buttons ---------*/
@@ -160,9 +199,9 @@
     width: 22rem;
     margin: 0 3rem;
     padding: 1rem 3rem;
-    color: var(--main-text-color);
+    color: var(--main-black);
     background-color: #00c0208e;
-    border: solid 2px var(--main-text-color);
+    border: solid 2px var(--main-black);
     border-radius: 2rem;
     box-shadow: var(--shadow);
     transition: var(--transition);
@@ -174,7 +213,12 @@
     cursor: pointer;
 }
 
-.main-content-buttons button a {
-    color: var(--main-text-color);
-    text-decoration: none;
+.main-content-buttons-dark button {
+    color: var(--main-white);
+    border: solid 2px var(--main-white);
+}
+
+.main-content-buttons-dark button:hover {
+    color: var(--main-black);
+    background-color: #00cf23b9;
 }

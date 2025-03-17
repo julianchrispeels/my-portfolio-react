@@ -25,7 +25,7 @@ export default function MainButtons() {
     }
 
     return (
-        <div className='main-content-buttons'>
+        <div className='main-content-buttons' id="main-content-buttons">
             <button onClick={handleProjectsClick}>Projects</button>
             <button onClick={handleSkillsClick}>Skills</button>
             <button onClick={handleAboutClick}>About Me</button>

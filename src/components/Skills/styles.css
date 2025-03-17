@@ -4,6 +4,7 @@
     --dark-aqua: #004341;
 	--dark-aqua-light: #006764c7;
 	--dark-aqua-transparent: #0043412e;
+	--border-dark-mode: #009F9B;
 }
 
 /*--------------------------------------- Skills Section ---------------------------------------*/
@@ -20,7 +21,7 @@
 	justify-content: center;
 	width: 80%;
 	margin: auto;
-	margin-bottom: 6rem;
+	margin-bottom: 10rem;
 	background-color: rgba(0, 155, 160, 0.098);
 	border: solid 2px var(--dark-aqua);
 	border-radius: 8rem;
@@ -28,17 +29,26 @@
 	box-shadow: var(--shadow);
 }
 
+.skills-boxes-dark {
+	background-color: #00a3a936;
+	border: solid 2px var(--border-dark-mode);
+}
+
 .skills-box {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: rgb(255, 255, 255);
+	color: white;
 	background-color: var(--dark-aqua-light);
 	border: solid 2px var(--dark-aqua);
 	border-radius: 3rem;
 	margin: 1rem 0.5rem;
-	padding: 0 1rem;
+	padding: 1rem 1rem;
 	box-shadow: var(--shadow);
+}
+
+.skills-box-dark {
+	border: solid 2px var(--border-dark-mode);
 }
 
 .skills-box-text {

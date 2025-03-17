@@ -15,10 +15,13 @@
     box-shadow: var(--shadow)
 }
 
+.about-container-dark {
+    border: solid 2px #FFE100;
+}
+
 .about-text {
     font-size: 4rem;
     font-weight: bold;
-    color: var(--main-text-color);
     text-align: center;
     margin: 3rem 6rem;
 }
@@ -38,27 +41,30 @@
 
 .contact-content {
     display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-.contact-content A {
-    color: var(--main-text-color);
-    text-decoration: none;
-    margin-left: 2rem;
-}
-
-.contact-border {
-    border: solid 2px var(--main-text-color);
+    width: 30rem;
+    border: solid 2px var(--main-black);
     border-radius: 4rem;
     padding: 1rem 2rem;
     box-shadow: var(--shadow);
 }
 
-/* LinkdeIn */
-
-.about-linkedin-icon {
-    color: var(--linkedin-color);
+.contact-content a {
+    color: var(--main-black);
+    text-decoration: none;
+    margin-left: 2rem;
 }
+
+.contact-content-dark {
+    border: solid 2px var(--main-white);
+}
+
+.contact-content-dark a {
+    color: var(--main-white);
+}
+
+/* LinkdeIn */
 
 .linkedin {
     transition: var(--transition);
@@ -68,20 +74,30 @@
     color: var(--linkedin-color);
 }
 
+.about-linkedin-icon {
+    color: var(--linkedin-color);
+}
+
 /* GitHub */
 
 .github {
-    color: var(--main-text-color);
     transition: var(--transition);
 }
 
 .github:hover {
-    cursor: pointer;
     color: var(--github-color);
 }
 
 .about-github-icon {
     color: var(--github-color);
+}
+
+.about-github-icon-dark {
+    color: rgb(184, 0, 220);
+}
+
+.github-dark:hover {
+    color: rgb(184, 0, 220);
 }
 
 /* Email */

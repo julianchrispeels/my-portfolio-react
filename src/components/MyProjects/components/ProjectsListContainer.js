@@ -30,7 +30,7 @@ export default function ProjectsListContainer() {
                     <p className='side-text'>Then I started practicing some backend development</p>
                 </div>
                 <Arrow />
-                <p className='side-text last-text'>And now, I’ve reached this stage, where I keep learning and improving every day</p>
+                <p className='side-text last-text'>And now I've reached this stage, where I'm constantly learning and improving</p>
             </ul>
         </div>
     );

@@ -1,10 +1,14 @@
 /*----------------------------------- Footer -----------------------------------*/
 
 .footer {
-    background-color: var(--main-text-color);
-    color: var(--main-bg-color);
+    background-color: var(--main-black);
+    color: var(--main-white);
     font-size: 3rem;
     font-weight: bold;
+}
+
+.footer-dark {
+    background-color: #5f5f5f90;
 }
 
 .footer-container {
@@ -21,6 +25,5 @@
 
 .footer-icon {
     font-size: 5rem;
-    color: var(--main-bg-color);
     padding-right: 2rem;
 }

@@ -1,7 +1,7 @@
 export default function ListItem(title, className, content1, content2, content3, link) {
     return (
         <li className="project-box">
-            <div className={`box-title ${className}`}>
+            <div className={`box-title ${className}`} id={className}>
                 {title}
             </div>
 

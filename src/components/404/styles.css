@@ -12,11 +12,14 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 40, 40, 0.547);
-    color: var(--main-text-color);
     width: 30%;
-    border: solid 2px var(--main-text-color);
+    border: solid 2px var(--main-black);
     border-radius: 7rem;
     box-shadow: var(--shadow);
+}
+
+.not-found-container-dark {
+    border: solid 2px var(--main-white);
 }
 
 .not-found-content {
@@ -36,9 +39,9 @@
     align-items: center;
     font-size: 4rem;
     font-weight: bold;
-    background-color: var(--main-bg-color);
-    color: var(--main-text-color);
-    border: solid 2px var(--main-text-color);
+    background-color: var(--main-white);
+    color: var(--main-black);
+    border: solid 2px var(--main-black);
     text-decoration: none;
     border-radius: 3rem;
     padding: 1rem 2rem;
@@ -46,11 +49,13 @@
     transition: var(--transition);
 }
 
+.not-found-button-dark {
+    border: solid 2px var(--main-white);
+}
+
 .not-found-button:hover {
-    background-color: var(--main-text-color);
-    color: var(--main-bg-color);
-    border: solid 2px var(--main-bg-color);
-    box-shadow: var(--shadow-hover);
+    background-color: var(--main-black);
+    color: var(--main-white);
 }
 
 .back-icon {

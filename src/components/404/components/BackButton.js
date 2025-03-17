@@ -4,7 +4,7 @@ import { faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 export default function BackButton() {
     return (
-        <Link to='/' className='not-found-button'>
+        <Link to='/' className='not-found-button' id='back-button'>
             <FontAwesomeIcon icon={faCircleArrowLeft} className='back-icon' />
             Back to Home
         </Link>

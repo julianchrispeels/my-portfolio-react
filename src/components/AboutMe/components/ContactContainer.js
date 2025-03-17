@@ -10,19 +10,19 @@ export default function ContactContainer() {
 
     return (
         <div className="contact-container">
-            <div className='contact-content contact-border'>
+            <div className='contact-content'>
                 <FontAwesomeIcon icon={faLinkedin} className='about-linkedin-icon' />
                 <a className="linkedin" href={linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
 
-            <div className='contact-content contact-border'>
+            <div className='contact-content' id="github">
                 <FontAwesomeIcon icon={faGithub} className='about-github-icon' />
-                <a className="github" Href={github} target="_blank" rel="noreferrer">GitHub</a>
+                <a className="github" href={github} target="_blank" rel="noreferrer">GitHub</a>
             </div>
 
-            <div className='contact-content contact-border'>
+            <div className='contact-content'>
                 <FontAwesomeIcon icon={faEnvelope} className='about-email-icon' />
-                <a className="email" href={mailto} target="_blank" rel="noreferrer">GMail</a>
+                <a className="email" href={mailto} target="_blank" rel="noreferrer">Gmail</a>
             </div>
         </div>
     );

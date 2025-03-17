@@ -1,13 +1,29 @@
+/*---------------------------------------- Global Variables ----------------------------------------*/
+
+:root {
+	--main-black: #353535;
+	--email-color: #ff3838ec;
+	--linkedin-color: #008deb;
+	--github-color: #6200d2;
+	--main-white: #EBEBEB;
+	--shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.05);
+	--transition: all 0.2s;
+}
+
+/*---------------------------------------- Body Styles ----------------------------------------*/
+
 body {
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: var(--main-bg-color);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
+	background-color: var(--main-white);
+	color: var(--main-black);
 	font-family: 'Jaldi', sans-serif;
-	font-size: 1.6rem;
-	line-height: 1.5;
+	transition: var(--transition);
+}
+
+.dark-mode {
+	background-color: var(--main-black);
+	color: var(--main-white);
+	transition: var(--transition);
 }

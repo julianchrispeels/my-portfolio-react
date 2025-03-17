@@ -4,10 +4,10 @@ import MyProjects from "../components/MyProjects";
 import Skills from "../components/Skills";
 import Footer from "../components/Footer";
 
-export default function Home() {
+export default function Home({ onDarkMode }) {
 	return (
 		<>
-			<Main />
+			<Main onDarkMode={onDarkMode}/>
 			<MyProjects />
 			<Skills />
 			<AboutMe />
