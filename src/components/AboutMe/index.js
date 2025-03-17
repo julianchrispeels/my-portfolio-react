@@ -4,7 +4,7 @@ import './styles.css';
 
 export default function AboutMe() {
 
-    const text1 = `Hi! I'm Julian Chrispeels, an student in Applied Mathematics in train on finishing my degree.`;
+    const text1 = `Hi! I'm Julian Chrispeels, a student in Applied Mathematics currently finishing my degree.`;
 
     const text2 = `My academic background, combined with a self-taught attitude have helped me build skills 
         in machine learning, mathematical analysis, and software development, including web development. `;
