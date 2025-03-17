@@ -2,9 +2,9 @@ import { faPython, faJs, faJava, faHtml5, faCss3Alt, faReact, faNodeJs, faGitAlt
 import { faSquareBinary, faDatabase, faCode } from "@fortawesome/free-solid-svg-icons";
 import Box from "./Box";
 
-export default function SkillsBoxes({ skillsArray }) {
+export default function SkillsBoxes({ skillsArray, id }) {
     return (
-        <div className="skills-boxes">
+        <div className="skills-boxes" id={id}>
             {skillsArray.map((skill, index) => (
                 <Box key={index} text={skill} icon={
                     skill === "Python" ? faPython :

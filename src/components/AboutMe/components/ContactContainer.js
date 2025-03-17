@@ -16,8 +16,8 @@ export default function ContactContainer() {
             </div>
 
             <div className='contact-content' id="github">
-                <FontAwesomeIcon icon={faGithub} className='about-github-icon' />
-                <a className="github" href={github} target="_blank" rel="noreferrer">GitHub</a>
+                <FontAwesomeIcon icon={faGithub} className='about-github-icon' id="about-github-icon" />
+                <a className="github" id="github" href={github} target="_blank" rel="noreferrer">GitHub</a>
             </div>
 
             <div className='contact-content'>

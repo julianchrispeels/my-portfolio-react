@@ -1,4 +1,11 @@
 export default function classRemove() {
+    /* Body */
+    document.body.classList.remove("dark-mode");
+
+    /* 404 */
+    if (document.getElementById("back-button")) { document.getElementById("back-button").classList.remove("not-found-button-dark") }
+    if (document.getElementById("not-found-container")) { document.getElementById("not-found-container").classList.remove("not-found-container-dark") }
+
     /* Main */
     if (document.getElementById("main-header")) { document.getElementById("main-header").classList.remove("main-header-dark") }
     if (document.getElementById("main-button-lang")) { document.getElementById("main-button-lang").classList.remove("main-button-dark") }
@@ -15,10 +22,8 @@ export default function classRemove() {
 
     /* Skills */
     if (document.getElementById("skills")) { document.getElementById("skills").classList.remove("section-dark") }
-    if (document.getElementsByClassName("skills-boxes")) {
-        document.getElementsByClassName("skills-boxes")[0].classList.remove("skills-boxes-dark");
-        document.getElementsByClassName("skills-boxes")[1].classList.remove("skills-boxes-dark");
-    }
+    if (document.getElementById("hard-skills")) { document.getElementById("hard-skills").classList.remove("skills-boxes-dark") }
+    if (document.getElementById("soft-skills")) { document.getElementById("soft-skills").classList.remove("skills-boxes-dark") }
     const boxes = document.getElementsByClassName("skills-box");
     for (let i = 0; i < boxes.length; i++) {
         boxes[i].classList.remove("skills-box-dark");
@@ -34,8 +39,8 @@ export default function classRemove() {
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].classList.remove("contact-content-dark");
     }
-    if (document.getElementsByClassName("about-github-icon")) { document.getElementsByClassName("about-github-icon")[0].classList.remove("about-github-icon-dark") }
-    if (document.getElementsByClassName("github")) { document.getElementsByClassName("github")[0].classList.remove("github-dark") }
+    if (document.getElementById("about-github-icon")) { document.getElementById("about-github-icon").classList.remove("about-github-icon-dark") }
+    if (document.getElementById("github")) { document.getElementById("github").classList.remove("github-dark") }
 
     /* Footer */
     if (document.getElementById("footer")) { document.getElementById("footer").classList.remove("footer-dark") }

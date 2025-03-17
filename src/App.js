@@ -12,23 +12,24 @@ export default function App() {
 		return localStorage.getItem("dark-mode") === "enabled";
 	});
 
+	const [language, setLanguage] = useState(() => {
+		return localStorage.getItem("language") || "en";
+	});
+
 	useEffect(() => {
-		console.log(darkMode);
 		if (darkMode) {
-			document.body.classList.add("dark-mode");
-			localStorage.setItem("dark-mode", "enabled");
 			classAdd();
+			localStorage.setItem("dark-mode", "enabled");
 			} else {
-			document.body.classList.remove("dark-mode");
-			localStorage.setItem("dark-mode", "disabled");
 			classRemove();
+			localStorage.setItem("dark-mode", "disabled");
 		}
 	}, [darkMode]);
 
 	return (
 		<Router>
 			<Routes>
-				<Route path="/" element={<Home onDarkMode={setDarkMode} />} />
+				<Route path="/" element={<Home onDarkMode={setDarkMode} mode={darkMode} onLanguage={setLanguage} lang={language} />} />
 				<Route path="*" element={<NotFound404 />} />
 			</Routes>
 		</Router>

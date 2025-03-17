@@ -1,5 +1,7 @@
 export default function MainButtons() {
 
+    const lang = localStorage.getItem("language");
+
     function handleProjectsClick(event) {
         event.preventDefault();
         window.scrollTo({
@@ -26,9 +28,15 @@ export default function MainButtons() {
 
     return (
         <div className='main-content-buttons' id="main-content-buttons">
-            <button onClick={handleProjectsClick}>Projects</button>
-            <button onClick={handleSkillsClick}>Skills</button>
-            <button onClick={handleAboutClick}>About Me</button>
+            <button onClick={handleProjectsClick}>
+                {lang === "en" ? "Projects" : "Proyectos"}
+            </button>
+            <button onClick={handleSkillsClick}>
+                {lang === "en" ? "Skills" : "Habilidades"}
+            </button>
+            <button onClick={handleAboutClick}>
+                {lang === "en" ? "About Me" : "Sobre Mí"}
+            </button>
         </div>
     );
 }
