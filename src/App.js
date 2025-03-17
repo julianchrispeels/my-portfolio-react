@@ -1,25 +1,37 @@
+import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/About';
-import Header from './components/Header/index.js';
-import Footer from './components/Footer/index.js';
 import './App.css';
 import NotFound404 from './pages/404.js';
+import classAdd from './functions/classAdd.js';
+import classRemove from './functions/classRemove.js';
 
 export default function App() {
-  return (
-    <Router>
 
-      <Header />
+	const [darkMode, setDarkMode] = useState(() => {
+		return localStorage.getItem("dark-mode") === "enabled";
+	});
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<NotFound404 />} />
-      </Routes>
+	const [language, setLanguage] = useState(() => {
+		return localStorage.getItem("language") || "en";
+	});
 
-      <Footer />
+	useEffect(() => {
+		if (darkMode) {
+			classAdd();
+			localStorage.setItem("dark-mode", "enabled");
+			} else {
+			classRemove();
+			localStorage.setItem("dark-mode", "disabled");
+		}
+	}, [darkMode]);
 
-    </Router>
-  );
+	return (
+		<Router>
+			<Routes>
+				<Route path="/" element={<Home onDarkMode={setDarkMode} mode={darkMode} onLanguage={setLanguage} lang={language} />} />
+				<Route path="*" element={<NotFound404 />} />
+			</Routes>
+		</Router>
+	);
 }

@@ -1,0 +1,127 @@
+/*---------------------------------------- Projects Section ----------------------------------------*/
+
+/* ------------------------- Projects Container ------------------------- */
+
+.projects-section-container {
+	display:flex;
+	width: 100%;
+}
+
+.projects-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 100%;
+	padding: 0;
+	margin-bottom: 7rem;
+}
+
+.project-list-container {
+	display: flex;
+	width: 80%;
+	margin: 0 0 0 calc(50% - 45rem);
+	justify-content: center;
+	align-items: center;
+}
+
+.side-text {
+	font-size: 4rem;
+	font-weight: bold;
+	width: 40rem;
+	text-align: center;
+	margin: 0 6rem;
+}
+
+.side-text.last-text {
+	width: 50rem;
+	margin-right: 11rem;
+}
+
+.project-box {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(255, 255, 255, 0.819);
+	border-radius: 4rem;
+	width: 50rem;
+	box-shadow: var(--shadow);
+	border: solid 3px var(--main-black);
+	overflow: hidden;
+}
+
+.box-title {
+	background-size: cover;
+	color: white;
+	font-size: 5rem;
+	font-weight: 700;
+	text-align: center;
+	padding: 4rem;
+	margin: 0;
+}
+
+.tshirt-store {
+	background-color: #ffac11;
+	border-bottom: solid 2px var(--main-black);
+}
+
+.travel-blog {
+	background-color: #db008d;
+	border-bottom: solid 2px var(--main-black);
+}
+
+.coffee-blog {
+	background-color: #2D2D2D;
+	border-bottom: solid 2px var(--main-black);
+}
+
+.coffee-blog-dark {
+	background-color: #6B3805;
+}
+
+.real-estate {
+	background-color: #2db500;
+	border-bottom: solid 2px var(--main-black);
+}
+
+.note-manager {
+	background-color: #657fffce;
+	border-bottom: solid 2px var(--main-black);
+}
+
+.box-content {
+	color: var(--main-black);
+	font-size: 2.2rem;
+	font-weight: bold;
+	text-align: left;
+	margin: 2rem auto;
+	flex-grow: 1;
+}
+
+.box-button {
+	color: var(--main-black);
+	font-size: 2.5rem;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	border: solid 3px var(--main-black);
+	margin: 0 auto 2rem auto;
+	max-width: 16rem;
+	padding: 0.5rem 0;
+	border-radius: 3rem;
+	transition: var(--transition);
+}
+
+.box-button:hover {
+	color: var(--main-white);
+	background-color: var(--main-black);
+}
+
+.arrow {
+	font-size: 5rem;
+	margin: 2rem 5.5rem 1.5rem 0;
+	min-width: 80%;
+	text-align: center;
+}
+
+.arrow:last-of-type {
+	margin-bottom: 0;
+}
