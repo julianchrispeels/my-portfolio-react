@@ -23,7 +23,10 @@ body {
 }
 
 .dark-mode {
-	background-color: var(--main-black);
+	background: rgb(0, 0, 0);
+	background: radial-gradient(circle, rgba(0, 0, 0, 1) 5%, rgba(61, 46, 87, 1) 50%, rgba(0, 61, 64, 1) 95%);
+	background-size: cover;
+	background-attachment: fixed;
 	color: var(--main-white);
 	transition: var(--transition);
 }

@@ -19,11 +19,15 @@ export default function classAdd() {
     /* My Projects */
     if (document.getElementById("projects")) { document.getElementById("projects").classList.add("section-dark") }
     if (document.getElementById("coffee-blog")) { document.getElementById("coffee-blog").classList.add("coffee-blog-dark") }
+    const projectBoxes = document.getElementsByClassName("project-box");
+    for (let i = 0; i < projectBoxes.length; i++) {
+        projectBoxes[i].classList.add("project-box-dark");
+    }
 
     /* Skills */
     if (document.getElementById("skills")) { document.getElementById("skills").classList.add("section-dark") }
-   if (document.getElementById("hard-skills")) { document.getElementById("hard-skills").classList.add("skills-boxes-dark") }
-   if (document.getElementById("soft-skills")) { document.getElementById("soft-skills").classList.add("skills-boxes-dark") }
+    if (document.getElementById("hard-skills")) { document.getElementById("hard-skills").classList.add("skills-boxes-dark") }
+    if (document.getElementById("soft-skills")) { document.getElementById("soft-skills").classList.add("skills-boxes-dark") }
     const boxes = document.getElementsByClassName("skills-box");
     for (let i = 0; i < boxes.length; i++) {
         boxes[i].classList.add("skills-box-dark");

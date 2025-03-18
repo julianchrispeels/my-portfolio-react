@@ -20,7 +20,7 @@
 	display: flex;
 	width: 80%;
 	margin: 0 auto;
-	margin-left: 30rem;
+	margin-left: 20%;
 	justify-content: center;
 	align-items: center;
 }
@@ -46,6 +46,10 @@
 	margin: auto;
 }
 
+.side-text.last-side-text {
+	margin-bottom: 20rem;
+}
+
 @media (max-width: 1550px) {
 	.side-text.last-side-text {
 		margin-bottom: 20rem;
@@ -67,6 +71,10 @@
 	box-shadow: var(--shadow);
 	border: solid 3px var(--main-black);
 	overflow: hidden;
+}
+
+.project-box-dark {
+	border: solid 3px rgb(0, 0, 0);
 }
 
 .box-title {

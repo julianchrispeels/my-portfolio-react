@@ -1,4 +1,3 @@
-import Arrow from './Arrow';
 import ListItems from './ListItem';
 
 export default function ProjectsListContainer() {

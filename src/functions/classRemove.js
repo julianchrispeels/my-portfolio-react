@@ -19,6 +19,10 @@ export default function classRemove() {
     /* My Projects */
     if (document.getElementById("projects")) { document.getElementById("projects").classList.remove("section-dark") }
     if (document.getElementById("coffee-blog")) { document.getElementById("coffee-blog").classList.remove("coffee-blog-dark") }
+    const projectBoxes = document.getElementsByClassName("project-box");
+    for (let i = 0; i < projectBoxes.length; i++) {
+        projectBoxes[i].classList.remove("project-box-dark");
+    }
 
     /* Skills */
     if (document.getElementById("skills")) { document.getElementById("skills").classList.remove("section-dark") }
