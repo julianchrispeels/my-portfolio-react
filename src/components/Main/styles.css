@@ -75,6 +75,7 @@
 }
 
 .main-content-dark {
+    background-color: rgba(2, 0, 138, 0.256);
     border: solid 2px var(--main-white);
     border-top: none;
 }
