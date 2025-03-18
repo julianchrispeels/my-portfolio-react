@@ -44,38 +44,30 @@ export default function ProjectsListContainer() {
                         {lang === "en" ? "I started with something simple" : "Empecé con algo simple"}
                     </p>
                 </div>
-                <Arrow />
                 <div className='project-list-container'>
                     {ListItems("Travel Blog", "travel-blog", travelBlogArray[0], travelBlogArray[1], travelBlogArray[2], "https://hardcore-poitras-1509f6.netlify.app/")}
                     <p className='side-text'>
                         {lang === "en" ? "I then deepened my knowledge" : "Luego profundicé mis conocimientos"}
                     </p>
                 </div>
-                <Arrow />
                 <div className='project-list-container'>
                     {ListItems("Coffee Blog", "coffee-blog", coffeeBlogArray[0], coffeeBlogArray[1], coffeeBlogArray[2], "https://upbeat-mestorf-f092bd.netlify.app/")}
                     <p className='side-text'>
                         {lang === "en" ? "I moved on to something a bit more complex and modern" : "Pasé a algo un poco más complejo y moderno"}
                     </p>
                 </div>
-                <Arrow />
                 <div className='project-list-container'>
                     {ListItems("Real Estate", "real-estate", realEstateArray[0], realEstateArray[1], realEstateArray[2], "https://laughing-khorana-d02a5d.netlify.app/")}
                     <p className='side-text'>
                         {lang === "en" ? "I kept practicing to solidify what I had learned" : "Seguí practicando para consolidar lo aprendido"}
                     </p>
                 </div>
-                <Arrow />
                 <div className='project-list-container'>
                     {ListItems("Note Manager App", "note-manager", noteManagerArray[0], noteManagerArray[1], noteManagerArray[2], "https://note-manager-one.vercel.app/")}
-                    <p className='side-text'>
+                    <p className='side-text last-side-text'>
                         {lang === "en" ? "Then I started practicing some backend development" : "Luego comencé a practicar algo de desarrollo backend"}
                     </p>
                 </div>
-                <Arrow />
-                <p className='side-text last-text'>
-                    {lang === "en" ? "And now I've reached this stage, where I continue to learn and work on other projects" : "Y ahora he llegado a esta etapa, donde sigo aprendiendo y trabajando en otros proyectos"}
-                </p>
             </ul>
         </div>
     );

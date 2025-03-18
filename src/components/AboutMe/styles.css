@@ -15,6 +15,12 @@
     box-shadow: var(--shadow)
 }
 
+@media (max-width: 1550px) {
+    .about-container {
+        padding: 3rem;
+    }
+}
+
 .about-container-dark {
     border: solid 2px #FFE100;
 }
@@ -24,6 +30,13 @@
     font-weight: bold;
     text-align: center;
     margin: 3rem 6rem;
+}
+
+@media (max-width: 1550px) {
+    .about-text {
+        font-size: 3rem;
+        margin: 3rem 2rem;
+    }
 }
 
 /*------------------ Contact Container ------------------*/
@@ -39,6 +52,12 @@
     font-weight: bold;
 }
 
+@media (max-width: 1550px) {
+    .contact-container {
+        font-size: 4rem;
+    }
+}
+
 .contact-content {
     display: flex;
     justify-content: center;
@@ -48,6 +67,12 @@
     border-radius: 4rem;
     padding: 1rem 2rem;
     box-shadow: var(--shadow);
+}
+
+@media (max-width: 1550px) {
+    .contact-content {
+        width: 25rem;
+    }
 }
 
 .contact-content a {
