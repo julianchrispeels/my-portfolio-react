@@ -42,7 +42,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 402px) {
 	.skills-boxes {
 		width: 100%;
 		margin: 2rem auto;
@@ -106,7 +106,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 402px) {
 	.skills-box-text {
 		font-size: 1.45rem;
 		padding: 0.5rem;
@@ -125,7 +125,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 402px) {
 	.skills-box-icon {
 		font-size: 2rem;
 		padding-left: 0.5rem;

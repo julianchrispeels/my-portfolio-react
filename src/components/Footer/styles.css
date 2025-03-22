@@ -30,7 +30,7 @@
     width: 100%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 402px) {
     .footer-container {
         flex-direction: column;
         padding: 1rem 0;
@@ -42,7 +42,7 @@
     align-items: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 402px) {
     .footer-text {
         margin: 1rem 0;
     }
@@ -59,7 +59,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 402px) {
     .footer-icon {
         font-size: 3rem;
     }

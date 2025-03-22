@@ -30,7 +30,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 402px) {
 	.section {
 		margin: 0 2rem;
 	}
@@ -60,7 +60,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 402px) {
 	.section-subtitle {
 		font-size: 3rem;
 		margin: 0.5rem 2rem;
