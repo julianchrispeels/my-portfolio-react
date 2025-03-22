@@ -30,6 +30,16 @@
 	}
 }
 
+@media (max-width: 375px) {
+	.section {
+		margin: 0 2rem;
+	}
+	.section-title {
+		font-size: 4rem;
+		margin: 1.5rem 0;
+	}
+}
+
 .section-subtitle {
 	font-size: 6rem;
 	text-align: left;
@@ -47,6 +57,13 @@
 	.section-subtitle {
 		font-size: 4rem;
 		margin: 2rem 5rem;
+	}
+}
+
+@media (max-width: 375px) {
+	.section-subtitle {
+		font-size: 3rem;
+		margin: 0.5rem 2rem;
 	}
 }
 

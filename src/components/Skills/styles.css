@@ -35,6 +35,22 @@
 	}
 }
 
+@media (max-width: 834px) {
+	.skills-boxes {
+		padding: 3ch;
+		width: 90%;
+	}
+}
+
+@media (max-width: 375px) {
+	.skills-boxes {
+		width: 100%;
+		margin: 2rem auto;
+		padding: 0 auto;
+		border-radius: 5rem;
+	}
+}
+
 .skills-boxes-dark {
 	background-color: #00a3a936;
 	border: solid 2px var(--border-dark-mode);
@@ -84,13 +100,15 @@
 }
 
 @media (max-width: 834px) {
-	.skills-boxes {
-		padding: 3ch;
-		width: 90%;
-	}
-
 	.skills-box-text {
 		font-size: 1.5rem;
+		padding: 0.5rem;
+	}
+}
+
+@media (max-width: 375px) {
+	.skills-box-text {
+		font-size: 1.45rem;
 		padding: 0.5rem;
 	}
 }
@@ -104,5 +122,12 @@
 	.skills-box-icon {
 		font-size: 2.5rem;
 		padding-left: 1rem;
+	}
+}
+
+@media (max-width: 375px) {
+	.skills-box-icon {
+		font-size: 2rem;
+		padding-left: 0.5rem;
 	}
 }

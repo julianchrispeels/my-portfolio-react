@@ -24,6 +24,12 @@
     }
 }
 
+@media (max-width: 375px) {
+    .not-found-container {
+        width: 80%;
+    }
+}
+
 .not-found-container-dark {
     border: solid 2px var(--main-white);
 }

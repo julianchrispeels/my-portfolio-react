@@ -18,11 +18,18 @@
 
 .project-list-container {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 80%;
 	margin: 0 auto;
 	margin-left: 20%;
-	justify-content: center;
-	align-items: center;
+}
+
+@media (max-width: 375px) {
+	.project-list-container {
+		flex-direction: column-reverse;
+		margin: 0 auto;
+	}
 }
 
 .side-text {
@@ -30,9 +37,7 @@
 	font-weight: bold;
 	width: 40rem;
 	text-align: center;
-	margin: 0 6rem;
-	margin-right: 0;
-	margin-bottom: 8rem;
+	margin: 0 0 8rem 6rem;
 }
 
 @media (max-width: 1600px) {
@@ -47,6 +52,14 @@
 	}
 }
 
+@media (max-width: 375px) {
+	.side-text {
+		font-size: 2.2rem;
+		width: 30rem;
+		margin: 0 0 2rem 0;
+	}
+}
+
 .side-text.last-text {
 	width: 50rem;
 	margin: auto;
@@ -58,7 +71,7 @@
 	}
 }
 
-@media (max-width: 834px) {
+@media (max-width: 834px) { 
 	.side-text.last-text {
 		width: 30rem;
 	}
@@ -71,6 +84,12 @@
 @media (max-width: 1600px) {
 	.side-text.last-side-text {
 		margin-bottom: 20rem;
+	}
+}
+
+@media (max-width: 375px) {
+	.side-text.last-side-text {
+		margin-bottom: 2rem;
 	}
 }
 
@@ -130,6 +149,13 @@
 	}
 }
 
+@media (max-width: 375px) {
+	.box-title {
+		font-size: 2.3rem;
+		padding: 2rem 1rem;
+	}
+}
+
 .tshirt-store {
 	background-color: #ffac11;
 	border-bottom: solid 2px var(--main-black);
@@ -180,6 +206,13 @@
 	}
 }
 
+@media (max-width: 375px) {
+	.box-content {
+		font-size: 1.3rem;
+		margin: 1rem 2rem;
+	}
+}
+
 .box-button {
 	color: var(--main-black);
 	font-size: 2.5rem;
@@ -206,6 +239,7 @@
 	.box-button {
 		font-size: 1.5rem;
 		max-width: 10rem;
+		padding: 1.3rem 0;
 	}
 }
 
@@ -219,4 +253,11 @@
 	margin: 2rem auto;
 	min-width: 80%;
 	text-align: center;
+}
+
+@media (max-width: 375px) {
+	.arrow {
+		font-size: 4rem;
+		margin: 1.5rem auto;
+	}
 }
