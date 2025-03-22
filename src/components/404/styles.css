@@ -18,6 +18,12 @@
     box-shadow: var(--shadow);
 }
 
+@media (max-width: 834px) {
+    .not-found-container {
+        width: 40%;
+    }
+}
+
 .not-found-container-dark {
     border: solid 2px var(--main-white);
 }
@@ -28,6 +34,17 @@
     font-weight: bold;
     margin: 7rem;
     margin-bottom: 10rem;
+}
+
+@media (max-width: 1024px) {
+    .not-found-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        margin: 5rem;
+    }
 }
 
 .not-found-content > * {
@@ -47,6 +64,12 @@
     padding: 1rem 2rem;
     box-shadow: var(--shadow);
     transition: var(--transition);
+}
+
+@media (max-width: 1024px) {
+    .not-found-button {
+        font-size: 3rem;
+    }
 }
 
 .not-found-button-dark {

@@ -29,7 +29,7 @@
 	box-shadow: var(--shadow);
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1600px) {
 	.skills-boxes {
 		margin-bottom: 7.5rem;
 	}
@@ -64,18 +64,45 @@
 	padding: 1rem 2rem;
 }
 
-@media (max-width: 1550px) {
-	.skills-boxes {
-		font-size: 1.5rem;
-	}
-
+@media (max-width: 1600px) {
 	.skills-box-text {
 		font-size: 3rem;
 		padding: 1rem 1rem;
 	}
 }
 
+@media (max-width: 1280px) {
+    .skills-box-text {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+	.skills-box-text {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 834px) {
+	.skills-boxes {
+		padding: 3ch;
+		width: 90%;
+	}
+
+	.skills-box-text {
+		font-size: 1.5rem;
+		padding: 0.5rem;
+	}
+}
+
 .skills-box-icon {
 	font-size: 3.5rem;
 	padding-left: 2rem;
+}
+
+@media (max-width: 1024px) {
+	.skills-box-icon {
+		font-size: 2.5rem;
+		padding-left: 1rem;
+	}
 }

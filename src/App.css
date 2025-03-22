@@ -15,9 +15,18 @@
 	text-align: left;
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1600px) {
 	.section-title {
 		font-size: 6rem;
+	}
+}
+
+@media (max-width: 1024px) {
+	.section {
+		margin: 0 3rem;
+	}
+	.section-title {
+		font-size: 5rem;
 	}
 }
 
@@ -27,10 +36,17 @@
 	margin: 5rem 10rem;
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1600px) {
 	.section-subtitle {
 		font-size: 5rem;
 		margin: 3rem 7rem;
+	}
+}
+
+@media (max-width: 1024px) {
+	.section-subtitle {
+		font-size: 4rem;
+		margin: 2rem 5rem;
 	}
 }
 
