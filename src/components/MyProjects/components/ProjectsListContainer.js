@@ -29,9 +29,9 @@ export default function ProjectsListContainer() {
     ];
 
     const noteManagerArray = [
-        lang === "en" ? "A project of a Single Page Application." : "Un proyecto de una aplicación de una sola página.",
-        lang === "en" ? "Created with React." : "Creado con React.",
-        lang === "en" ? "Connected with a databese." : "Conectado con una base de datos.",
+        lang === "en" ? "A full stack project of a SPA." : "Un proyecto full stack de una SPA.",
+        lang === "en" ? "Created with React, Node and Express." : "Creado con React, Node y Express.",
+        lang === "en" ? "Connected with a database with Sequelize." : "Conectado con una base de datos con Sequelize.",
     ];
 
     return (
@@ -62,7 +62,7 @@ export default function ProjectsListContainer() {
                     </p>
                 </div>
                 <div className='project-list-container'>
-                    {ListItems("Note Manager App", "note-manager", noteManagerArray[0], noteManagerArray[1], noteManagerArray[2], "https://note-manager-one.vercel.app/")}
+                    {ListItems("Note Manager App", "note-manager", noteManagerArray[0], noteManagerArray[1], noteManagerArray[2], "https://notemanagerapp.netlify.app/")}
                     <p className='side-text last-side-text'>
                         {lang === "en" ? "Then I started practicing some backend development" : "Luego comencé a practicar algo de desarrollo backend"}
                     </p>
